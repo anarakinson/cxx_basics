@@ -1,0 +1,10 @@
+^D:\CODING\ATOM\CPP\LESSONS\LIBRARIES\DYNAMIC_LIBRARY\DYNAMIC_LIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/coding/Atom/cpp/lessons/libraries/dynamic_library -BD:/coding/Atom/cpp/lessons/libraries/dynamic_library/build --check-stamp-file D:/coding/Atom/cpp/lessons/libraries/dynamic_library/build/dynamic_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

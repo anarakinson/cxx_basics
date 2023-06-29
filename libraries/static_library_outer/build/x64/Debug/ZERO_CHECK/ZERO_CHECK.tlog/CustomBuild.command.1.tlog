@@ -1,0 +1,10 @@
+^D:\CODING\ATOM\CPP\LESSONS\LIBRARIES\STATIC_LIBRARY_OUTER\BUILD\CMAKEFILES\6202E7B0A52471B416E09E272709A296\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/coding/Atom/cpp/lessons/libraries/static_library_outer -BD:/coding/Atom/cpp/lessons/libraries/static_library_outer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/coding/Atom/cpp/lessons/libraries/static_library_outer/build/StaticLib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

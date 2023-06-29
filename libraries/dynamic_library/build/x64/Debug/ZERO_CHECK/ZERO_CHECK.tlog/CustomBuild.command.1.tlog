@@ -1,0 +1,10 @@
+^D:\CODING\ATOM\CPP\LESSONS\LIBRARIES\DYNAMIC_LIBRARY\BUILD\CMAKEFILES\A5527E82FF439BE880E7439866151178\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/coding/Atom/cpp/lessons/libraries/dynamic_library -BD:/coding/Atom/cpp/lessons/libraries/dynamic_library/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/coding/Atom/cpp/lessons/libraries/dynamic_library/build/Project_lib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

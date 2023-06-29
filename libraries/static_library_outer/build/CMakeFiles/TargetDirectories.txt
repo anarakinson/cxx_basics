@@ -1,0 +1,3 @@
+D:/coding/Atom/cpp/lessons/libraries/static_library_outer/build/CMakeFiles/main.dir
+D:/coding/Atom/cpp/lessons/libraries/static_library_outer/build/CMakeFiles/ALL_BUILD.dir
+D:/coding/Atom/cpp/lessons/libraries/static_library_outer/build/CMakeFiles/ZERO_CHECK.dir

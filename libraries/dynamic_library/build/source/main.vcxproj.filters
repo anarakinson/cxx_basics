@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\coding\Atom\cpp\lessons\libraries\dynamic_library\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\coding\Atom\cpp\lessons\libraries\dynamic_library\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E258B402-D2F8-3B32-86D2-656DEE06BF92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+D:/coding/Atom/cpp/lessons/json/build/CMakeFiles/header_only.dir
+D:/coding/Atom/cpp/lessons/json/build/CMakeFiles/ALL_BUILD.dir
+D:/coding/Atom/cpp/lessons/json/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,6 @@
+Hello
+int variable: 1234.13
+Some words from input: 
+Bye!
+
+some addition at the end

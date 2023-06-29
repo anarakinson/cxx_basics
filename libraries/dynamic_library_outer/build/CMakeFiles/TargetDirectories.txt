@@ -1,0 +1,4 @@
+D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/CMakeFiles/main.dir
+D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/CMakeFiles/copy_dll.dir
+D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/CMakeFiles/ALL_BUILD.dir
+D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/CMakeFiles/ZERO_CHECK.dir

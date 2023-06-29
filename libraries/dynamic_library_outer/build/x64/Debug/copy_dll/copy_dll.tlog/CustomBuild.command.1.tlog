@@ -1,0 +1,20 @@
+^D:\CODING\ATOM\CPP\LESSONS\LIBRARIES\DYNAMIC_LIBRARY_OUTER\BUILD\CMAKEFILES\66A0B112497BB13546AB12687A438A86\COPY_DLL.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/dynamic_lib/dynamic_lib.dll D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/app/dynamic_lib.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CODING\ATOM\CPP\LESSONS\LIBRARIES\DYNAMIC_LIBRARY_OUTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer -BD:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build --check-stamp-file D:/coding/Atom/cpp/lessons/libraries/dynamic_library_outer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

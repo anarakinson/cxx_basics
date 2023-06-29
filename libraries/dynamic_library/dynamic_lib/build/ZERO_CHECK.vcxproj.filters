@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\coding\Atom\cpp\lessons\libraries\dynamic_library\dynamic_lib\build\CMakeFiles\3eaa6d20ace012b2f89db5b5a216299a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7788A5BF-3C42-388A-BC47-9C58A068927F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
