@@ -1,3 +1,0 @@
-D:/coding/Atom/cpp/lessons/basic/build/CMakeFiles/myproject.dir
-D:/coding/Atom/cpp/lessons/basic/build/CMakeFiles/ALL_BUILD.dir
-D:/coding/Atom/cpp/lessons/basic/build/CMakeFiles/ZERO_CHECK.dir
